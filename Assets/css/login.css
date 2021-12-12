@@ -1,0 +1,150 @@
+/* ================================================
+   General
+   ================================================ */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none!important;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   background: #fafbfc;
+}
+
+/* ================================================
+   Reusables
+   ================================================ */
+
+.text-center {
+   text-align: center;
+}
+
+.mb-2 {
+   margin-bottom: .5rem;
+}
+
+.mb-3 {
+   margin-bottom: 1rem;
+}
+
+.mb-4 {
+   margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+   background: #0353CC;
+}
+
+
+/* ================================================
+   Pre-Loader
+   ================================================ */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFF;
+    z-index: 999;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+/* ================================================
+   Main
+   ================================================ */
+.main {
+   margin: 5rem auto;
+   margin-bottom: 2rem;
+}
+
+.card {
+   width: 25rem;
+   margin: 0 auto;
+   border: 1px solid #F4F5F7;
+   border-radius: 4px;
+   padding: 2rem;
+   background: #FFF;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card-heading .card-text {
+   font-size: .8rem;
+   color: #596880;
+}
+
+label {
+   font-size: .8rem;
+   font-weight: bold;
+}
+
+.form-control {
+   width: 100%;
+   margin-top: .8rem;
+   padding: 0.675rem 2rem;
+   border-radius: 3px;
+   border: 1px solid #F4F5F7;
+   outline: none;
+}
+
+::placeholder {
+   color: #CBCFD7;
+   font-size: .67rem;
+   font-weight: bold;
+}
+
+.btn {
+   width: 100%;
+   color: #FFF;
+   text-transform: uppercase;
+   padding: 00.675rem 2rem;
+   border: none;
+   outline: none;
+   border-radius: 3px;
+}
+
+.btn:hover {
+   cursor: pointer;
+   background: #02398d
+}
+
+hr {
+   border: 1px solid #F4F5F7;
+   margin-bottom: 1rem;
+}
+
+.p-text {
+   color: #0353CC;
+   font-size: .7rem;
+}
+
+.reg .card-text {
+   cursor: pointer;
+   font-size: .7rem;
+   text-transform: uppercase;
+}
+
+/* ================================================
+   Footer
+   ================================================ */
+
+.footer {
+   position: fixed;
+   width: 100%;
+   height: 25rem;
+   background-image: url(/Assets/imgs/Group_46.png);
+   /* background-position: center; */
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* .footer-img {
+   width: 100%;
+   height: auto;
+} */

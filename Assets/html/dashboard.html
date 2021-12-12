@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/dash.css">
+    <link
+      rel="shortcut icon"
+      href="../imgs/logo.JPG"
+      type="image/x-icon"
+    />
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- Pre loader -->
+    <div class="preloader">
+        <img
+          src="../imgs/Gear-0.2s-200px (1).gif"
+          alt="preloader"
+          class="preloader_item"
+          width="60"
+        />
+      </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="wrapper site_header_wrapper">
+            <i class="fas fa-bars nav-open brand_one" id="sidebar_open" onclick="openSidebar()"></i>
+            <a href="" class="brand">resource edge</a>
+            <nav id="nav" class="nav">
+                <ul class="nav__wrapper">
+                    <li class="nav__item feat"><a href="#">TM Dashboard</a></li>
+                    <li class="nav__btn nav__item--end"><img src="../imgs/image 1.png" class="avatar alt=""></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar_wrapper" id="sidebar_wrapper">
+        <i class="fas fa-times sidebar_close" id="sidebar_close" onclick="closeSidebar()"></i>
+        <div class="sidebar_info">
+            <p class="sidebar_title">Ositadinma Nwangwu</p>
+            <p class="sidebar_sub_title">Profile</p>
+        </div>
+        <div class="users">
+            <p class="users_text">Use Resource Edge as</p>
+            <div class="user">
+                <i class="fas fa-user-tie"></i>
+                <p>Employee</p>
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="user">
+                <i class="fas fa-user-secret"></i>
+                <p>Talent Manager</p>
+            </div>
+        </div>
+        <div class="btn_wrapper">
+            <a href="/index.html" class="btn3">Log out</a>
+        </div>
+    </div>
+
+    <!-- Information -->
+    <section class="info">
+        <div class="info_text">
+            <h1 class="title">Hello, Ositadinma Nwangwu</h1>
+            <p class="text">Welcome and good to have you back.</p>
+        </div>
+        <div class="steps">
+            <h5>Things to do</h5>
+            <div class="things">
+                <div class="circle"></div>
+                <p class="text">Upload your employee performance agreement</p>
+                <a href="./Assets/html/login.html" class="btn btn1 item--end">Begin</a>
+            </div>
+            <div class="things">
+                <div class="circle"></div>
+                <p class="text">Start quarterly self review</p>
+                <a href="./Assets/html/login.html" class="btn btn2 item--end">Resume</a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="../js/app.js"></script>
+</body>
+</html>
